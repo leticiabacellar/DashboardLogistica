@@ -13,7 +13,6 @@ O objetivo deste projeto é desenvolver dashboards dinâmicos para monitoramento
 
 
 ## 📊 Dashboards Desenvolvidos
-
 1. Performance de Marketing Digital
 
 Exibe o desempenho de campanhas ativas, incluindo:
@@ -28,7 +27,6 @@ Evolução das conversões ao longo do tempo
 
 Objetivo: Acompanhar a performance das campanhas e otimizar investimentos em marketing.
 
-
 2. Análise de Perfil de Usuários
 
 Apresenta informações sobre o perfil dos usuários:
@@ -42,7 +40,6 @@ Canais de cadastro (YouTube, LinkedIn, Instagram, Site)
 Áreas de interesse e nível de conhecimento
 
 Objetivo: Entender o perfil do público e personalizar estratégias de atração e retenção.
-
 
 3. Gestão de Faturamento e Logística
 
