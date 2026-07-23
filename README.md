@@ -1,79 +1,190 @@
-## Projeto de Dashboards Analíticos
+# 📊 Projeto de Dashboards Analíticos
+
+<img width="728" height="415" alt="image" src="https://github.com/user-attachments/assets/1041611a-bb14-464e-a48f-feef6c2c9252" />
+
 
 ## 📌 Sobre o Projeto
 
-Este repositório contém uma série de dashboards interativos desenvolvidos para análise e tomada de decisão em diferentes contextos empresariais. Cada painel foi projetado para fornecer insights valiosos sobre métricas essenciais, utilizando visualização de dados para facilitar a interpretação e a estratégia de negócios.
+Este repositório reúne dashboards desenvolvidos no **Power BI** com foco em Business Intelligence e Análise de Dados. Os projetos simulam diferentes cenários empresariais e demonstram a aplicação de técnicas de ETL, modelagem de dados, criação de indicadores (KPIs) e desenvolvimento de dashboards executivos para apoio à tomada de decisão.
+
+Cada dashboard foi construído utilizando boas práticas de visualização de dados, proporcionando uma análise clara e intuitiva das informações.
+
+---
+
+# 🎯 Objetivo
+
+Desenvolver dashboards interativos capazes de transformar dados em informações estratégicas, permitindo o monitoramento de indicadores de desempenho e apoiando decisões baseadas em dados.
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+- Power BI Desktop
+- Power Query
+- DAX
+- Modelagem de Dados
+- Excel
+- Storytelling com Dados
+
+---
+
+# 📊 Dashboards Desenvolvidos
+
+## 📈 1. Performance de Marketing Digital
+
+### Objetivo
+
+Analisar o desempenho das campanhas de marketing digital e acompanhar os principais indicadores de conversão.
+
+### Indicadores
+
+- Investimento Total
+- Total de Cliques
+- Total de Conversões
+- CTR
+- CPC
+- CPA
+- CVR
+
+### Principais análises
+
+- Conversões por campanha
+- Conversões por gênero
+- Conversões por faixa etária
+- Evolução das conversões ao longo do tempo
+
+---
+
+## 👥 2. Perfil de Usuários
+
+### Objetivo
+
+Analisar o perfil dos usuários para compreender melhor o público-alvo.
+
+### Indicadores
+
+- Quantidade de usuários
+- Distribuição por gênero
+- Faixa etária
+- Localização
+- Canal de aquisição
+
+### Principais análises
+
+- Origem dos usuários
+- Áreas de interesse
+- Nível de conhecimento
+- Comparativo entre canais de aquisição
+
+---
+
+## 🚚 3. Gestão de Faturamento e Logística
+
+<img width="728" height="415" alt="image" src="https://github.com/user-attachments/assets/27fe6639-e971-47cd-92c6-bee2083aedff" />
 
 
+### Objetivo
 
-## 🎯 Objetivo
+Monitorar indicadores operacionais relacionados ao faturamento, entregas e devoluções.
 
-O objetivo deste projeto é desenvolver dashboards dinâmicos para monitoramento e análise de dados em diferentes áreas, como marketing digital, perfil de usuários e gestão de faturamento e logística. A ideia é transformar dados brutos em informações valiosas para otimizar processos e aumentar a eficiência empresarial.
+### Indicadores
 
+- Faturamento Total
+- Total de Pedidos
+- Total de Motoristas
+- Entregas no Prazo
+- Entregas Atrasadas
+- Índice de Devoluções
 
+### Principais análises
 
-## 📊 Dashboards Desenvolvidos
+- Faturamento por cliente
+- Entregas por motorista
+- Motivos das devoluções
+- Devoluções por motorista
+- Filtros por período
+- Filtros por localidade
 
-1. Performance de Marketing Digital
+---
 
-Exibe o desempenho de campanhas ativas, incluindo:
+# 🔄 Processo de Desenvolvimento
 
-Investimento total
+Todos os dashboards seguiram as seguintes etapas:
 
-Cliques, conversões e custo por aquisição (CPA)
+### 📥 Coleta dos Dados
 
-Taxas de conversão por faixa etária e gênero
+- Importação das bases
+- Organização das informações
+- Validação dos dados
 
-Evolução das conversões ao longo do tempo
+### 🔄 ETL
 
-Objetivo: Acompanhar a performance das campanhas e otimizar investimentos em marketing.
+- Limpeza dos dados
+- Tratamento de valores nulos
+- Padronização das colunas
+- Conversão de tipos de dados
+- Remoção de inconsistências
 
+### 🧩 Modelagem
 
-2. Análise de Perfil de Usuários
+- Relacionamento entre tabelas
+- Estrutura dimensional
+- Otimização do modelo para melhor desempenho
 
-Apresenta informações sobre o perfil dos usuários:
+### 📐 Desenvolvimento
 
-Distribuição por gênero e idade
+- Criação de medidas em DAX
+- Construção de KPIs
+- Desenvolvimento das visualizações
+- Aplicação de filtros e segmentações
 
-Localização geográfica
+---
 
-Canais de cadastro (YouTube, LinkedIn, Instagram, Site)
+# 🚀 Competências Demonstradas
 
-Áreas de interesse e nível de conhecimento
+Este projeto evidencia conhecimentos em:
 
-Objetivo: Entender o perfil do público e personalizar estratégias de atração e retenção.
+- Business Intelligence
+- Power BI
+- Power Query
+- DAX
+- ETL
+- Modelagem Dimensional
+- Criação de KPIs
+- Storytelling com Dados
+- Visualização de Dados
+- Dashboards Executivos
+- Análise Exploratória de Dados
 
+---
 
-3. Gestão de Faturamento e Logística
+# 📁 Estrutura do Repositório
 
-Controle de entregas e devoluções:
+```text
+Projeto-Dashboards/
 
-Total de pedidos e motoboys
+│── README.md
+│── Dashboard Marketing.pbix
+│── Dashboard Perfil Usuários.pbix
+│── Dashboard Logística.pbix
+│
+├── Bases de Dados/
+│     ├── marketing.xlsx
+│     ├── usuarios.xlsx
+│     └── logistica.xlsx
+│
+└── images/
+      ├── marketing.png
+      ├── usuarios.png
+      └── logistica.png
+```
 
-Faturamento por cliente
+---
 
-Motivos de devolução
+# 👩‍💻 Desenvolvido por
 
-Filtragem por período e localidade
+**Letícia Bacellar**
 
-
-Objetivo: Monitorar eficiência da cadeia logística e reduzir perdas.
-
-
-## 🛠 Passo a Passo do Desenvolvimento
-
-Coleta de Dados: Importação de datasets de diferentes fontes (Excel, bancos de dados, APIs, etc.).
-
-Tratamento e Limpeza: Remoção de dados inconsistentes, preenchimento de valores ausentes e transformação dos dados para análise.
-
-Modelagem dos Dados: Estruturação das tabelas relacionais para otimizar consultas e análises.
-
-Criação de Dashboards: Utilização de ferramentas como Power BI para construir visualizações dinâmicas e interativas.
-
-Validação e Ajustes: Testes para garantir a precisão das métricas e usabilidade dos dashboards.
-
-
-
-## 📌 Conclusão
-
-Os dashboards desenvolvidos proporcionam uma visão clara e objetiva sobre dados estratégicos de marketing, perfil de usuários e gestão logística. Com essas ferramentas, é possível otimizar processos, identificar padrões e tomar decisões mais assertivas baseadas em dados.
+- 💼 LinkedIn: https://www.linkedin.com/in/leticia-bacellar-96a568205/
+- 💻 GitHub: https://github.com/leticiabacellar
+- 🌐 Portfólio: https://sites.google.com/view/portifolio-da-leticia-bacellar
