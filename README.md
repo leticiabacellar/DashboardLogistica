@@ -1,105 +1,74 @@
-# 📊 Projeto de Dashboards Analíticos
+# 🚚 Dashboard de Gestão de Faturamento e Logística
 
-<img width="728" height="415" alt="image" src="https://github.com/user-attachments/assets/1041611a-bb14-464e-a48f-feef6c2c9252" />
+<img width="728" height="415" alt="image" src="https://github.com/user-attachments/assets/72d9dfcb-94c2-48a9-a409-559df069e217" />
 
 
 ## 📌 Sobre o Projeto
 
-Este repositório reúne dashboards desenvolvidos no **Power BI** com foco em Business Intelligence e Análise de Dados. Os projetos simulam diferentes cenários empresariais e demonstram a aplicação de técnicas de ETL, modelagem de dados, criação de indicadores (KPIs) e desenvolvimento de dashboards executivos para apoio à tomada de decisão.
-
-Cada dashboard foi construído utilizando boas práticas de visualização de dados, proporcionando uma análise clara e intuitiva das informações.
+Este projeto apresenta um dashboard desenvolvido no **Power BI** para monitorar indicadores de faturamento e desempenho logístico. O painel reúne informações sobre pedidos, entregas, devoluções e faturamento, permitindo uma visão estratégica da operação e apoiando a tomada de decisões.
 
 ---
 
-# 🎯 Objetivo
+## 🎯 Objetivo
 
-Desenvolver dashboards interativos capazes de transformar dados em informações estratégicas, permitindo o monitoramento de indicadores de desempenho e apoiando decisões baseadas em dados.
+Desenvolver um dashboard executivo para acompanhar os principais indicadores da área de faturamento e logística, possibilitando o monitoramento das entregas, análise de devoluções e avaliação do desempenho operacional.
 
 ---
 
-# 🛠 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - Power BI Desktop
 - Power Query
 - DAX
 - Modelagem de Dados
 - Excel
-- Storytelling com Dados
 
 ---
 
-# 📊 Dashboards Desenvolvidos
+## 📂 Etapas do Projeto
 
-## 📈 1. Performance de Marketing Digital
+### 📥 Coleta dos Dados
 
-### Objetivo
+- Importação da base de dados.
+- Organização das informações de pedidos, clientes e entregas.
+- Validação da consistência dos dados.
 
-Analisar o desempenho das campanhas de marketing digital e acompanhar os principais indicadores de conversão.
+### 🔄 Tratamento dos Dados
 
-### Indicadores
+Durante o processo de ETL foram realizadas atividades como:
 
-- Investimento Total
-- Total de Cliques
-- Total de Conversões
-- CTR
-- CPC
-- CPA
-- CVR
+- Remoção de registros duplicados;
+- Tratamento de valores nulos;
+- Padronização das informações;
+- Ajuste dos tipos de dados;
+- Organização das tabelas para análise.
 
-### Principais análises
+### 🧩 Modelagem dos Dados
 
-- Conversões por campanha
-- Conversões por gênero
-- Conversões por faixa etária
-- Evolução das conversões ao longo do tempo
+Foi desenvolvido um modelo de dados para otimizar as consultas e garantir maior desempenho do dashboard.
 
 ---
 
-## 👥 2. Perfil de Usuários
+## 📐 Indicadores Desenvolvidos
 
-### Objetivo
+O dashboard apresenta indicadores como:
 
-Analisar o perfil dos usuários para compreender melhor o público-alvo.
-
-### Indicadores
-
-- Quantidade de usuários
-- Distribuição por gênero
-- Faixa etária
-- Localização
-- Canal de aquisição
-
-### Principais análises
-
-- Origem dos usuários
-- Áreas de interesse
-- Nível de conhecimento
-- Comparativo entre canais de aquisição
+- 💰 Faturamento Total
+- 📦 Total de Pedidos
+- 🛵 Total de Motoristas
+- ✅ Entregas no Prazo
+- ⏰ Entregas Atrasadas
+- 📦 Índice de Devoluções
 
 ---
 
-## 🚚 3. Gestão de Faturamento e Logística
+## 📊 Funcionalidades do Dashboard
 
-<img width="728" height="415" alt="image" src="https://github.com/user-attachments/assets/27fe6639-e971-47cd-92c6-bee2083aedff" />
-
-
-### Objetivo
-
-Monitorar indicadores operacionais relacionados ao faturamento, entregas e devoluções.
-
-### Indicadores
-
-- Faturamento Total
-- Total de Pedidos
-- Total de Motoristas
-- Entregas no Prazo
-- Entregas Atrasadas
-- Índice de Devoluções
-
-### Principais análises
+O painel permite analisar:
 
 - Faturamento por cliente
-- Entregas por motorista
+- Entregas realizadas por motorista
+- Entregas no prazo e atrasadas
 - Motivos das devoluções
 - Devoluções por motorista
 - Filtros por período
@@ -107,40 +76,28 @@ Monitorar indicadores operacionais relacionados ao faturamento, entregas e devol
 
 ---
 
-# 🔄 Processo de Desenvolvimento
+## 📈 Principais Insights
 
-Todos os dashboards seguiram as seguintes etapas:
+Com este dashboard é possível:
 
-### 📥 Coleta dos Dados
-
-- Importação das bases
-- Organização das informações
-- Validação dos dados
-
-### 🔄 ETL
-
-- Limpeza dos dados
-- Tratamento de valores nulos
-- Padronização das colunas
-- Conversão de tipos de dados
-- Remoção de inconsistências
-
-### 🧩 Modelagem
-
-- Relacionamento entre tabelas
-- Estrutura dimensional
-- Otimização do modelo para melhor desempenho
-
-### 📐 Desenvolvimento
-
-- Criação de medidas em DAX
-- Construção de KPIs
-- Desenvolvimento das visualizações
-- Aplicação de filtros e segmentações
+- Monitorar o desempenho operacional das entregas.
+- Identificar clientes com maior faturamento.
+- Avaliar os principais motivos de devolução.
+- Comparar o desempenho entre motoristas.
+- Acompanhar indicadores para redução de atrasos e perdas logísticas.
 
 ---
 
-# 🚀 Competências Demonstradas
+## 📸 Dashboard
+
+### Visão Geral
+
+<img width="728" height="415" alt="image" src="https://github.com/user-attachments/assets/5a7d091d-1d9f-45fa-a414-47c864c11852" />
+
+
+---
+
+## 🚀 Competências Demonstradas
 
 Este projeto evidencia conhecimentos em:
 
@@ -149,17 +106,15 @@ Este projeto evidencia conhecimentos em:
 - Power Query
 - DAX
 - ETL
-- Modelagem Dimensional
-- Criação de KPIs
+- Modelagem de Dados
+- Desenvolvimento de KPIs
 - Storytelling com Dados
 - Visualização de Dados
 - Dashboards Executivos
-- Análise Exploratória de Dados
 
 ---
 
-
-# 👩‍💻 Desenvolvido por
+## 👩‍💻 Desenvolvido por
 
 **Letícia Bacellar**
 
