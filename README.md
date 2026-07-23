@@ -158,28 +158,6 @@ Este projeto evidencia conhecimentos em:
 
 ---
 
-# 📁 Estrutura do Repositório
-
-```text
-Projeto-Dashboards/
-
-│── README.md
-│── Dashboard Marketing.pbix
-│── Dashboard Perfil Usuários.pbix
-│── Dashboard Logística.pbix
-│
-├── Bases de Dados/
-│     ├── marketing.xlsx
-│     ├── usuarios.xlsx
-│     └── logistica.xlsx
-│
-└── images/
-      ├── marketing.png
-      ├── usuarios.png
-      └── logistica.png
-```
-
----
 
 # 👩‍💻 Desenvolvido por
 
